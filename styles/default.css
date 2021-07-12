@@ -1,8 +1,18 @@
 body {
     letter-spacing: 0.1rem;
+    color: #575656;
 }
 
 .credits {
     margin-top: 10%;
+    margin-bottom: 10%;
     font-size: 1.2rem;
+}
+
+a {
+    color: #ef8686;
+}
+
+a:hover {
+    color: #f7abab;
 }
