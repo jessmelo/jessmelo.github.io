@@ -1,12 +1,19 @@
 body {
     letter-spacing: 0.1rem;
     color: #575656;
+    background: #a31c1c;
+}
+
+.about {
+    background-color: #fceaea;
+    padding: 40px;
 }
 
 .credits {
     margin-top: 10%;
     margin-bottom: 10%;
-    font-size: 1.2rem;
+    font-size: 10px;
+    color: #fceaea;
 }
 
 a {
