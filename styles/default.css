@@ -4,14 +4,34 @@ body {
     background: #a31c1c;
 }
 
+.content {
+    margin-top: 40px;
+}
+
 .about {
     background-color: #fceaea;
     padding: 40px;
 }
 
+.post {
+    background-color: #fceaea;
+    padding: 40px;
+}
+
+.post-title {
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: 0.08rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    .post-title { font-size: 3.0rem; }
+}
+  
 .credits {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 10px;
     color: #fceaea;
 }
@@ -22,4 +42,8 @@ a {
 
 a:hover {
     color: #f7abab;
+}
+
+.simple-list li {
+    font-weight: 600;
 }
